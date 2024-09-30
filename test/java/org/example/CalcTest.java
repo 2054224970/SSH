@@ -10,7 +10,9 @@ public class CalcTest {
     void testAddition() {
         assertEquals(4, c.add(2,2));
     }
+    @Test
     void testSubtraction() {
         // 新的减法测试
-        assertEquals(2, new Calculator().subtract(4, 2));
+        assertEquals(2, c.subtract(4, 2));
+    }
 }
